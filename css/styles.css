@@ -94,6 +94,14 @@ img {
 .container-menu-items:focus {
   color: #404bbf;
 }
+.container-menu-items::after,
+:active {
+  content: "";
+  border-bottom: 4px solid #404bbf;
+  border-radius: 2px;
+  width: 48px;
+}
+
 .container-address {
   font-style: normal;
 }
