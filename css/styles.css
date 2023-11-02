@@ -88,18 +88,28 @@ img {
 .container-menu-items:hover {
   color: #404bbf;
 }
-.container-menu-items:active {
+/* .container-menu-items:active {
   color: #404bbf;
-}
+} */
 .container-menu-items:focus {
   color: #404bbf;
 }
-.container-menu-items::after,
-:active {
+.menu-studio {
+  position: relative;
+  display: block;
+}
+.container-menu-items:active,
+::after {
   content: "";
-  border-bottom: 4px solid #404bbf;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
   border-radius: 2px;
-  width: 48px;
+  background-color: #404bbf;
 }
 
 .container-address {
