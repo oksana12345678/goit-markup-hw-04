@@ -79,11 +79,14 @@ img {
   gap: 40px;
   margin-right: 0;
 }
-.container-menu-items:active,
-::after {
+.menu-studio {
+  position: relative;
+  display: block;
+}
+.menu-studio:active ::after {
   content: "";
   position: absolute;
-  top: 41px;
+  top: 43px;
   left: 0;
   bottom: 0;
   right: 0;
@@ -108,10 +111,6 @@ img {
 } */
 .container-menu-items:focus {
   color: #404bbf;
-}
-.menu-studio {
-  position: relative;
-  display: block;
 }
 
 .container-address {
