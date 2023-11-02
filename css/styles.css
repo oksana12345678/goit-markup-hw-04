@@ -140,7 +140,12 @@ img {
 .section-title {
   background: #2e2f42;
   padding: 188px 0;
+  background-image: url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .container-title {
   display: flex;
   flex-direction: column;
