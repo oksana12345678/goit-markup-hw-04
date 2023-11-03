@@ -198,6 +198,16 @@ img {
 .main-content-text-items {
   width: calc((100% - 3 * 24px) / 4);
 }
+.container-icon {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  margin-top: 0;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+}
 .container-list-port {
   flex-wrap: wrap;
   column-gap: 24px;
