@@ -240,6 +240,15 @@ img {
   justify-content: center;
   gap: 24px;
 }
+.container-social .link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
 
 .icon-social {
   fill: #4d5ae5;
@@ -248,6 +257,9 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.container-footer-content {
+  display: flex;
 }
 .container-team-desc {
   background: #f4f4fd;
@@ -285,6 +297,17 @@ img {
 .container-footer {
   background: #2e2f42;
   padding: 100px 0;
+  display: flex;
+}
+.footer-title {
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
 .logo-two {
   color: #4d5ae5;
@@ -309,6 +332,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+.container-footer-social {
+  margin-left: 120px;
 }
 .footer-desc {
   color: #f4f4fd;
