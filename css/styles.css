@@ -234,6 +234,16 @@ img {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
+.container-social {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icon-social {
+  fill: #4d5ae5;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -313,8 +323,12 @@ img {
 .section {
   padding: 120px 0;
 }
+.container-desc-card {
+  margin: 32px 0;
+}
+
 .container-content-text {
-  padding: 32px 0;
+  padding: 32px 0 8px 0;
 }
 .visually-hidden {
   position: absolute;
