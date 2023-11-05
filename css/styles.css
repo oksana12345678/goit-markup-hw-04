@@ -89,7 +89,7 @@ img {
   color: #404bbf;
   position: relative;
 }
-.current::after {
+.menu-studio::after {
   content: "";
   position: absolute;
   top: 43px;
@@ -296,7 +296,6 @@ img {
   justify-content: center;
   gap: 24px;
   list-style: none;
-  gap: 16px;
 }
 .container-social-footer {
   display: flex;
@@ -367,7 +366,6 @@ img {
 }
 .container-list {
   gap: 24px;
-
   text-align: center;
 }
 .container-team-items {
