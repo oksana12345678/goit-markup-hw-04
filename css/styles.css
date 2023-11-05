@@ -305,7 +305,7 @@ img {
   list-style: none;
   gap: 16px;
 }
-.container-social:focus {
+.link-social:focus {
   background-color: #404bbf;
 }
 .social-list {
