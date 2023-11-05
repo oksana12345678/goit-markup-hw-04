@@ -305,7 +305,7 @@ img {
   list-style: none;
   gap: 16px;
 }
-.container-social:focus :active {
+.container-social:focus {
   background-color: #404bbf;
 }
 .social-list {
@@ -335,8 +335,7 @@ img {
 .link-social-footer:hover {
   background-color: #31d0aa;
 }
-.link-social-footer:focus,
-:active {
+.link-social-footer:focus {
   background-color: #31d0aa;
 }
 .container {
